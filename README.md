@@ -1,6 +1,6 @@
 # 19-bit Custom CPU
 
-A custom-designed 19-bit CPU built using basic hardware modules including a Program Counter, Instruction Memory, Instruction Register, ALU, Control Unit, and Data Memory.
+A custom-designed 19-bit CPU built using basic hardware modules including a Program Counter, Instruction Memory, Instruction Register, ALU, Control Unit, Reg file and Data Memory.
 
 ## 🧠 Overview
 
