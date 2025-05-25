@@ -44,5 +44,5 @@ The CPU follows a basic fetch-execute-writebl-memory cycle. It is designed with 
 
 ## 🧾 Instruction Format
 
-The instruction is 19 bits wide and typically divided as:
+The instruction is 19 bits wide and typically divided as: [4:O]opcode, [3:0] rs1, rs2, rd, [13:0] addr_imm (address for immediate field), [5:0] branch offset
 
