@@ -3,7 +3,7 @@ module program_counter (
     input rst,
     input pc_enable,
     input [1:0] pc_sel,           // Select signal for PC control
-    input [19:0] target_addr,     // Target address (from instruction)
+    input [18:0] target_addr,     // Target address (from instruction)
     output reg [18:0] pc
 );
 
