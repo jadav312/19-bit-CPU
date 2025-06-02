@@ -61,12 +61,6 @@ A top-level module integrates all the submodules and controls the data flow and 
 - ALU, Register File, and Data Memory via multiplexers
 - Control Unit to all modules through control signals
 
-### Features:
-- Synchronous operation with a system clock
-- Instruction fetch-decode-execute pipeline
-- Multiplexer-based data routing
-- Seamless coordination between all components
-
 ## Simulation Results
 
 A testbench (`top_tb.v`) was created to verify the CPU’s functionality.
